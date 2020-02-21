@@ -11,7 +11,6 @@ class App : Application()   {
         super.onCreate()
         Stetho.initializeWithDefaults(this)
         roomComponent = DaggerRoomComponent.factory().create(applicationContext)
-
     }
 
     companion object {
